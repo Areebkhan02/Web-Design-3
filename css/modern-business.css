@@ -1,0 +1,272 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 0px;
+}
+
+/* #collapsibleNavbar{
+  margin-left: 900px;
+} */
+
+
+  a#class1:hover
+  {color:hotpink;}
+
+
+.carousel-item {
+  height: 69vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.class2{}
+
+/* @media screen and (max-width: 480px){
+#class6{
+  height:2px;border-width:0;color:gray;background-color:gray;margin-top:3px;
+}} */
+
+@media screen and (min-width: 480px) {
+  #class2{
+    position: relative;
+    top: -160px; }}
+@media screen and (max-width: 480px) {
+  #class3{
+    position: relative;
+    top: -9px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #class4{
+    position: relative;
+    top: -20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #class5{
+    position: relative;
+    top: -30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #class8 {
+    position: relative;
+    top: -100px;
+    left: -15px;
+    font-size: 0.75rem;
+
+  }
+}
+@media screen and (max-width: 480px) {
+  #class9 {
+    height:170px;
+    left: -20px;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #class10{
+    margin-top:-173px;
+  }
+
+}
+#class11{
+  height:140px;margin-top:10px;margin-bottom:10px;border: 2px outset gray;
+}
+#class12{
+  font-size:2rem;margin-left:65px;margin-top:10px;font-family:Lato;
+
+}
+#class13{
+  font-size:60px;
+}
+@media screen and (max-width: 480px) {
+#class11{
+
+  height:100px;
+}
+#class12{
+    font-size:1.25rem
+
+}
+#class13{
+  display:none;
+}
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  #class14{
+    margin-left:-15px;
+  }
+  #class15{
+    margin-left:15px;
+    margin-right:-35px;
+  }
+
+  #class16{
+    margin-left:15px;
+    margin-right:15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #class17{
+    font-size:1.5rem;
+    padding-left: 50px;
+
+  }
+  #class18{
+    display:none;
+  }
+  #cf4a img{
+    height:170px;
+    width:430px;
+    padding-left: 10px;
+  }
+  #class19{
+    margin-top:-20px;
+  }
+  #class20{
+    margin-top:-140px;
+  }
+}
+<!---------------------------------------->
+@-webkit-keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-moz-keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-o-keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+#cf4a {
+  position:relative;
+  height:300px;
+  width:1200px;
+  margin:0 auto;
+}
+#cf4a img {
+  position:absolute;
+  left:0;
+}
+
+#cf4a img {
+  -webkit-animation-name: cf4FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+
+  -moz-animation-name: cf4FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 8s;
+
+  -o-animation-name: cf4FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 8s;
+
+  animation-name: cf4FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+#cf4a img:nth-of-type(1) {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
+}
+#cf4a img:nth-of-type(2) {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+#cf4a img:nth-of-type(3) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+#cf4a img:nth-of-type(4) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+<!-------------------------------------------->
